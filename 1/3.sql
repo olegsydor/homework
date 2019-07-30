@@ -9,6 +9,7 @@ EXCEPT
 SELECT [productid]
   FROM [supplies]
   WHERE [quantity] > 0
+ORDER BY [productid]
 GO
 
 /*
